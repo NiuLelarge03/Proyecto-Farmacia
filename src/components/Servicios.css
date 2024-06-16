@@ -1,0 +1,42 @@
+/* src/components/Servicios.css */
+.servicios-background {
+  background: #f8f9fa;
+  padding: 50px 0;
+}
+
+.servicio-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.servicio-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.servicio-icon {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}

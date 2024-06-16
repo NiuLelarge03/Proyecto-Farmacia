@@ -1,0 +1,29 @@
+/* src/components/TarjetaProducto.css */
+.producto-card {
+  width: 300px; /* Ancho fijo para todas las tarjetas */
+  height: 400px; /* Altura fija para todas las tarjetas */
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.producto-card:hover {
+  transform: scale(1.05);
+}
+
+.producto-img {
+  height: 200px; /* Altura fija para las imágenes */
+  object-fit: cover; /* Ajuste de la imagen sin distorsión */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.producto-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
